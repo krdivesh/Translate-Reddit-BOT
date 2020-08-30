@@ -30,5 +30,5 @@ for comment in subreddit.stream.comments():
             comment.reply(msg)
             print(msg)
         except:
-            comment.reply(welcome + '\n' + 'I am not well rn. Try another time')
+            comment.reply(welcome + '\n\n' + 'I am not well rn. Try another time')
             print('Error')
